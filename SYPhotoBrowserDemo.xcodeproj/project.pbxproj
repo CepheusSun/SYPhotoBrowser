@@ -13,9 +13,18 @@
 		33FABA861DC979BB00A90055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FABA841DC979BB00A90055 /* Main.storyboard */; };
 		33FABA881DC979BC00A90055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33FABA871DC979BC00A90055 /* Assets.xcassets */; };
 		33FABA8B1DC979BC00A90055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FABA891DC979BC00A90055 /* LaunchScreen.storyboard */; };
+		33FABA991DC979C900A90055 /* SYPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FABA941DC979C900A90055 /* SYPhotoBrowser.m */; };
+		33FABA9A1DC979C900A90055 /* SYPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FABA961DC979C900A90055 /* SYPhotoProgressView.m */; };
+		33FABA9B1DC979C900A90055 /* SYPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FABA981DC979C900A90055 /* SYPhotoView.m */; };
+		33FABAB11DC980DF00A90055 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FABAAF1DC980DF00A90055 /* CollectionCell.m */; };
+		33FABAB21DC980DF00A90055 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33FABAB01DC980DF00A90055 /* CollectionCell.xib */; };
+		33FABAB71DC9A37400A90055 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FABAB61DC9A37400A90055 /* TableViewController.m */; };
+		33FABABA1DC9A41300A90055 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FABAB91DC9A41300A90055 /* TableViewCell.m */; };
+		D2005F87E43483F7150C024B /* libPods-SYPhotoBrowserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D35157B4F8274CF80197481 /* libPods-SYPhotoBrowserDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06903D6ACB9DE002620E6285 /* Pods-SYPhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPhotoBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYPhotoBrowserDemo/Pods-SYPhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		33FABA781DC979BB00A90055 /* SYPhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYPhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FABA7C1DC979BB00A90055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33FABA7E1DC979BB00A90055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,21 @@
 		33FABA871DC979BC00A90055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33FABA8A1DC979BC00A90055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33FABA8C1DC979BC00A90055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FABA931DC979C900A90055 /* SYPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPhotoBrowser.h; sourceTree = "<group>"; };
+		33FABA941DC979C900A90055 /* SYPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPhotoBrowser.m; sourceTree = "<group>"; };
+		33FABA951DC979C900A90055 /* SYPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPhotoProgressView.h; sourceTree = "<group>"; };
+		33FABA961DC979C900A90055 /* SYPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPhotoProgressView.m; sourceTree = "<group>"; };
+		33FABA971DC979C900A90055 /* SYPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPhotoView.h; sourceTree = "<group>"; };
+		33FABA981DC979C900A90055 /* SYPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPhotoView.m; sourceTree = "<group>"; };
+		33FABAAE1DC980DF00A90055 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		33FABAAF1DC980DF00A90055 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		33FABAB01DC980DF00A90055 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		33FABAB51DC9A37400A90055 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		33FABAB61DC9A37400A90055 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		33FABAB81DC9A41300A90055 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		33FABAB91DC9A41300A90055 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		7D35157B4F8274CF80197481 /* libPods-SYPhotoBrowserDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYPhotoBrowserDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F76FAC4EA3FE76675B3558 /* Pods-SYPhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPhotoBrowserDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYPhotoBrowserDemo/Pods-SYPhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2005F87E43483F7150C024B /* libPods-SYPhotoBrowserDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F31652AA1A866A10BB45977 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06903D6ACB9DE002620E6285 /* Pods-SYPhotoBrowserDemo.debug.xcconfig */,
+				A7F76FAC4EA3FE76675B3558 /* Pods-SYPhotoBrowserDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		33FABA6F1DC979BB00A90055 = {
 			isa = PBXGroup;
 			children = (
 				33FABA7A1DC979BB00A90055 /* SYPhotoBrowserDemo */,
 				33FABA791DC979BB00A90055 /* Products */,
+				1F31652AA1A866A10BB45977 /* Pods */,
+				586CE1B24A7F33D6B0386304 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +94,18 @@
 		33FABA7A1DC979BB00A90055 /* SYPhotoBrowserDemo */ = {
 			isa = PBXGroup;
 			children = (
+				33FABA921DC979C900A90055 /* SYPhotoBrowser */,
 				33FABA7E1DC979BB00A90055 /* AppDelegate.h */,
 				33FABA7F1DC979BB00A90055 /* AppDelegate.m */,
 				33FABA811DC979BB00A90055 /* ViewController.h */,
 				33FABA821DC979BB00A90055 /* ViewController.m */,
+				33FABAAE1DC980DF00A90055 /* CollectionCell.h */,
+				33FABAAF1DC980DF00A90055 /* CollectionCell.m */,
+				33FABAB51DC9A37400A90055 /* TableViewController.h */,
+				33FABAB61DC9A37400A90055 /* TableViewController.m */,
+				33FABAB01DC980DF00A90055 /* CollectionCell.xib */,
+				33FABAB81DC9A41300A90055 /* TableViewCell.h */,
+				33FABAB91DC9A41300A90055 /* TableViewCell.m */,
 				33FABA841DC979BB00A90055 /* Main.storyboard */,
 				33FABA871DC979BC00A90055 /* Assets.xcassets */,
 				33FABA891DC979BC00A90055 /* LaunchScreen.storyboard */,
@@ -79,6 +123,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		33FABA921DC979C900A90055 /* SYPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				33FABA931DC979C900A90055 /* SYPhotoBrowser.h */,
+				33FABA941DC979C900A90055 /* SYPhotoBrowser.m */,
+				33FABA951DC979C900A90055 /* SYPhotoProgressView.h */,
+				33FABA961DC979C900A90055 /* SYPhotoProgressView.m */,
+				33FABA971DC979C900A90055 /* SYPhotoView.h */,
+				33FABA981DC979C900A90055 /* SYPhotoView.m */,
+			);
+			path = SYPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		586CE1B24A7F33D6B0386304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D35157B4F8274CF80197481 /* libPods-SYPhotoBrowserDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33FABA8F1DC979BC00A90055 /* Build configuration list for PBXNativeTarget "SYPhotoBrowserDemo" */;
 			buildPhases = (
+				30B7CF46FB2424252E371133 /* [CP] Check Pods Manifest.lock */,
 				33FABA741DC979BB00A90055 /* Sources */,
 				33FABA751DC979BB00A90055 /* Frameworks */,
 				33FABA761DC979BB00A90055 /* Resources */,
+				97EE3B1BFE236E2EE5027530 /* [CP] Embed Pods Frameworks */,
+				D7320634BC97928BE38A3321 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +208,60 @@
 			files = (
 				33FABA8B1DC979BC00A90055 /* LaunchScreen.storyboard in Resources */,
 				33FABA881DC979BC00A90055 /* Assets.xcassets in Resources */,
+				33FABAB21DC980DF00A90055 /* CollectionCell.xib in Resources */,
 				33FABA861DC979BB00A90055 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30B7CF46FB2424252E371133 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97EE3B1BFE236E2EE5027530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPhotoBrowserDemo/Pods-SYPhotoBrowserDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7320634BC97928BE38A3321 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPhotoBrowserDemo/Pods-SYPhotoBrowserDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33FABA741DC979BB00A90055 /* Sources */ = {
@@ -152,8 +269,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				33FABA831DC979BB00A90055 /* ViewController.m in Sources */,
+				33FABA991DC979C900A90055 /* SYPhotoBrowser.m in Sources */,
+				33FABA9A1DC979C900A90055 /* SYPhotoProgressView.m in Sources */,
 				33FABA801DC979BB00A90055 /* AppDelegate.m in Sources */,
+				33FABABA1DC9A41300A90055 /* TableViewCell.m in Sources */,
+				33FABAB11DC980DF00A90055 /* CollectionCell.m in Sources */,
 				33FABA7D1DC979BB00A90055 /* main.m in Sources */,
+				33FABA9B1DC979C900A90055 /* SYPhotoView.m in Sources */,
+				33FABAB71DC9A37400A90055 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +392,7 @@
 		};
 		33FABA901DC979BC00A90055 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06903D6ACB9DE002620E6285 /* Pods-SYPhotoBrowserDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 552B69TXM9;
@@ -281,6 +405,7 @@
 		};
 		33FABA911DC979BC00A90055 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F76FAC4EA3FE76675B3558 /* Pods-SYPhotoBrowserDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 552B69TXM9;
@@ -310,6 +435,7 @@
 				33FABA911DC979BC00A90055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
